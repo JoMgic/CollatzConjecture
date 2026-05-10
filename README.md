@@ -25,14 +25,6 @@ This makes it easy to generate graphs and analyze the behavior of the sequence.
 
 ---
 
-## Features
-
-- Calculates Collatz stopping times
-- Exports results as CSV
-- Overflow protection for large numbers
-- Fast iterative implementation
-- Compatible with Excel and LibreOffice Calc
-
 ---
 
 ## Requirements
@@ -43,6 +35,7 @@ This makes it easy to generate graphs and analyze the behavior of the sequence.
 Tested on:
 - Arch Linux
 - GCC
+- libreoffice-fresh
 
 ---
 
@@ -138,9 +131,3 @@ The conjecture states that every starting number eventually reaches `1`.
 
 More information:
 :contentReference[oaicite:2]{index=2}
-
----
-
-## License
-
-MIT License
