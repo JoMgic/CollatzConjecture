@@ -1,7 +1,6 @@
-# Collatz Conjecture Explorer
+# Collatz Conjecture in C++
 
-A simple C++ program that explores the Collatz conjecture (3n + 1 problem) and exports the results into a CSV file for visualization in Excel, LibreOffice Calc, Python, or other data analysis tools.
-
+A simple C++ program that explores the Collatz conjecture (3n + 1 problem). The generated `CSV` file can be imported into LibreOffice or Julia for better visualisation.
 ---
 
 ## About
@@ -36,6 +35,7 @@ Tested on:
 - Arch Linux
 - GCC
 - libreoffice-fresh
+- julia
 
 ---
 
@@ -53,6 +53,8 @@ g++ -O2 Main.cpp -o app
 
 ```bash
 ./app
+julia plot.jl
+julia plot-log.jl
 ```
 
 After execution, a file named:
@@ -76,25 +78,15 @@ origin,moves
 5,6
 ...
 ```
-
+## Visualisation
+Julia visualisize this csv-file and returns two png-files.
+```text
+collatz-julia.png
+collatz-julia-logarithmic.png
+```
+I personal do not recommend to use LibreOffice for visualisation, as it produces less precise graphical results.
 ---
 
-## Visualization
-
-You can import the CSV file into:
-
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
-- Python (matplotlib / pandas)
-- R
-- MATLAB
-
-Recommended chart types:
-- Scatter plot
-- Line chart
-- Logarithmic visualization
-
----
 
 ## Project Structure
 
@@ -109,12 +101,9 @@ Recommended chart types:
 
 ## Future Ideas
 
-- Export maximum intermediate values
 - Parallel computation
-- Performance benchmarking
-- Visualization scripts
-- Big integer support
 - GPU acceleration
+- Big integer support
 
 ---
 
