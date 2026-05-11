@@ -92,12 +92,12 @@ origin,moves
 ...
 ```
 ## Visualisation
-Julia visualisize this csv-file and returns two png-files.
+Julia visualizes this csv-file and returns two png-files.
 ```text
 collatz-julia.png
 collatz-julia-logarithmic.png
 ```
-I personal do not recommend to use LibreOffice for visualisation, as it produces less precise graphical results.
+I personally do not recommend to use LibreOffice for visualisation, as it produces less precise graphical results.
 
 ![Libre Office](test.png)
 ---
