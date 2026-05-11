@@ -1,9 +1,22 @@
 # Collatz Conjecture in C++
 
-A simple C++ program that explores the Collatz conjecture (3n + 1 problem). The generated `CSV` file can be imported into LibreOffice or Julia for better visualisation.
----
 
-## About
+## The Collatz Conjecture
+
+The Collatz conjecture is one of the most famous unsolved problems in mathematics.
+
+Starting with any positive integer:
+
+- divide by 2 if even
+- multiply by 3 and add 1 if odd
+
+The conjecture states that every starting number eventually reaches `1`.
+
+![Collatz Conjecture](collatz-julia.png)
+![Collatz Conjecture logarithmic](collatz-julia-logarithmic.png)
+
+
+## The basic idea
 
 The program calculates the number of steps required for a number to reach `1` using the Collatz sequence:
 
@@ -85,6 +98,8 @@ collatz-julia.png
 collatz-julia-logarithmic.png
 ```
 I personal do not recommend to use LibreOffice for visualisation, as it produces less precise graphical results.
+
+![Libre Office](test.png)
 ---
 
 
@@ -105,18 +120,4 @@ I personal do not recommend to use LibreOffice for visualisation, as it produces
 - GPU acceleration
 - Big integer support
 
----
 
-## The Collatz Conjecture
-
-The Collatz conjecture is one of the most famous unsolved problems in mathematics.
-
-Starting with any positive integer:
-
-- divide by 2 if even
-- multiply by 3 and add 1 if odd
-
-The conjecture states that every starting number eventually reaches `1`.
-
-![Collatz Conjecture](collatz-julia.png)
-![Collatz Conjecture logarithmic](collatz-julia-logarithmic.png)
