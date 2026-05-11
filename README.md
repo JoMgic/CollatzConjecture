@@ -117,3 +117,5 @@ Starting with any positive integer:
 - multiply by 3 and add 1 if odd
 
 The conjecture states that every starting number eventually reaches `1`.
+
+![[collatz-julia.png]]
