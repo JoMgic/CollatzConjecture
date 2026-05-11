@@ -109,6 +109,10 @@ I personal do not recommend to use LibreOffice for visualisation, as it produces
 .
 ├── Main.cpp
 ├── collatz.csv
+├── plot.jl
+├── plot-log.jl
+├── collatz-julia.png
+├── collatz-julia-logarithmic.png
 └── README.md
 ```
 
