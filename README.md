@@ -118,4 +118,5 @@ Starting with any positive integer:
 
 The conjecture states that every starting number eventually reaches `1`.
 
-![[collatz-julia.png]]
+![Collatz Conjecture](collatz-julia.png)
+![Collatz Conjecture logarithmic](collatz-julia-logarithmic.png)
